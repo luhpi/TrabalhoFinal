@@ -116,10 +116,11 @@ public class DAO {
 	}
 
 	//Read
-	public String readUser(String nome, String senha){
+	public boolean readUser(String nome, String senha){
 		con = ConMySQL.getConnectionMySQL();
 		String sql = "SELECT * FROM usuarios WHERE nome=? and senha=?";
-		
+		boolean apoio;
+
 		PreparedStatement prepS;
 		try {
 			prepS = con.prepareStatement(sql);
@@ -127,7 +128,7 @@ public class DAO {
             prepS.setString(2, senha);
 			ResultSet res = prepS.executeQuery();
 			while(res.next()){
-				name = res.getString(3);
+				boolean = res.getBoolean(3);
 			}
 			con.close();
 		} catch (SQLException e) {
@@ -141,7 +142,7 @@ public class DAO {
 				e.printStackTrace();
 			}
 		}
-		return name;
+		return apoio;
 	}
 	
 	//Update
