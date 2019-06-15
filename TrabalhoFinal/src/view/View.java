@@ -14,6 +14,8 @@ import java.awt.Dimension;
 import javax.swing.JCheckBox;
 import javax.swing.JTextField;
 import javax.swing.JScrollPane;
+=======
+>>>>>>> Added a couple more swing things
 
 public class View extends JFrame {
 
@@ -33,6 +35,9 @@ public class View extends JFrame {
 	private JTextField textFieldNomeServidor;
 	private JTextField textFieldDataReserva;
 	private JTextField textFieldObservacao;
+=======
+	private JTextField textField;
+>>>>>>> Added a couple more swing things
 
 	/**
 	 * Launch the application.
@@ -204,6 +209,9 @@ public class View extends JFrame {
 		
 		JScrollPane scrollPaneTabela = new JScrollPane();
 		panelHorarios.add(scrollPaneTabela);
+		textField = new JTextField();
+		panelHorarios.add(textField);
+		textField.setColumns(10);
 		
 		JTable tabelaHorariosReserva = new JTable();
 		panelHorarios.add(tabelaHorariosReserva);
