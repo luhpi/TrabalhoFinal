@@ -19,7 +19,7 @@ public class ConMySQL {
 		String servername = "localhost";	// Caminho do sevidor do BD
 		String mydatabase = "reservasala";	// Nome do seu banco de dados
 		String url = "jdbc:mysql://"+servername+":3306/"+mydatabase;
-		String username = "root";	// Nome de um usuário de BD
+		String username = "root";	// Nome de um usuario de BD
 		String password = "123456";	// Sua senha de acesso
 		
 		try {

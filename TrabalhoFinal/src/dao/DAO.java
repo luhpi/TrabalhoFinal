@@ -128,7 +128,7 @@ public class DAO {
             prepS.setString(2, senha);
 			ResultSet res = prepS.executeQuery();
 			while(res.next()){
-				boolean = res.getBoolean(3);
+				apoio = res.getBoolean(3);
 			}
 			con.close();
 		} catch (SQLException e) {
@@ -159,11 +159,9 @@ public class DAO {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} finally {
-			trych character will show up one by one in Intimacy Level order on your birthday page. By clicking the rainbow speech bubble, you can hear and receive their "User's Birthday Celebration" Voice Clip.
-By clicking onto the stage screen, you can see a randomized assortment of 5 students and 8 cakes with no regard to intimate level or other settings.
- {
-				con.close();
+		} finally {	
+      try{
+        con.close();
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
