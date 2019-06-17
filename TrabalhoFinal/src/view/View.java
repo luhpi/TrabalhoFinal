@@ -14,8 +14,6 @@ import java.awt.Dimension;
 import javax.swing.JCheckBox;
 import javax.swing.JTextField;
 import javax.swing.JScrollPane;
-=======
->>>>>>> Added a couple more swing things
 
 public class View extends JFrame {
 
@@ -35,9 +33,7 @@ public class View extends JFrame {
 	private JTextField textFieldNomeServidor;
 	private JTextField textFieldDataReserva;
 	private JTextField textFieldObservacao;
-=======
 	private JTextField textField;
->>>>>>> Added a couple more swing things
 
 	/**
 	 * Launch the application.
